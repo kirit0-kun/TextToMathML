@@ -1,0 +1,61 @@
+<maction> − Provides option to bind actions to subexpressions/expressions.
+
+<math> − It is top or root level element and is used to encapsulate each instance of MathML instance. Every valid MathML expression should be wrapped in outer <math> tag. It can contain any number of child elements. One math element cannot contain another math element tag.
+
+<menclose> − Renders its content inside an enclosing notation specified by the notation attribute.
+
+<merror> − Used to display contents as error message.
+
+<mfenced> − Provides the option to add custom opening and closing parentheses and separators to an expression.
+
+<mfrac> − Used to display fractions.
+
+<mglyph> − Used to display non-standard symbols where existing Unicode characters are not available.
+
+<mi> − Used to specify an identifier such as name of a variable, function or a constant etc. For example, <mi>PI</mi> .
+
+<mlabeledtr> − Used to represent a label in a row either on the left or on the right side using side attribute of mtable. Child elements of mlabeledtr must be mtd elements.
+
+<mmultiscripts> − Provides options to create tensor-like objects.
+
+<mn> − Used to specify a numerical literal like 3.14 etc. For example, <mn>3.14</mn>.
+
+<mo> − Used to specify an operator like +, - etc. For example, <mo>+</mo>.
+
+<mover> − Used to attach an accent or a limit over an expression.
+
+<mpadded> − Used to add extra padding and to set the general adjustment of position and size of enclosed contents.
+
+<mphantom> − Used to create space as it is rendered invisibly, keeping height, width, and baseline position intact.
+
+<mroot> − Used to display roots with an explicit index.
+
+<mrow> − Used to group any number of sub expressions in horizontal way.
+
+<ms> − Used to represent a string literal meant to be interpreted by programming languages and computer algebra systems.
+
+<mspace> − Used to display a blank space, where its size is set using its attributes.
+
+<msqrt> − Used to display square root.
+
+<mstyle> − Used to apply the style on its children.
+
+<msub> − Used to attach a subscript to an expression. It uses the following syntax: <msub> base subscript </msub>.
+
+<msubsup> − Used to attach both a subscript and a superscript, together, to an expression. It uses the following syntax: <msubsup> base subscript superscript </msubsup>.
+
+<msup> − Used to attach a superscript to an expression. It uses the following syntax: msup base superscript </msup>.
+
+<mtable> − Provides options to create tables or matrices.
+
+<mtd> − To represent a cell in a table or a matrix.
+
+<mtext> − Used to render text with no notational meaning, such as comments or annotations.
+
+<mtr> − Represents a row in a table or a matrix.
+
+<munder> − Provides option to attach an accent or a limit under an expression. It uses the following syntax: <munder> base underscript </munder>
+
+<munderover> − Provides option to attach accents or limits both under and over an expression. It uses the following syntax: </munderover> base underscript overscript </munderover>
+
+<semantics> − <semantics>,<annotation> and <annotation-xml> are used to add presentation and content markup and provides both, layout information and semantic meaning of mathematical expressions.
